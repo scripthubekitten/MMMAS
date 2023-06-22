@@ -94,6 +94,46 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "NameLessAdmin",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "EXECUTED !",
+	Content = "successful EXECUTED NameLess Admin",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))())
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Q-TOOL",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "EXECUTED !",
+	Content = "successful EXECUTED Q-TOOL",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/qtoolv3/main/qtoolv3", true))())
+  	end    
+})
+
+Tab:AddButton({
+	Name = "C-TOOL",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "EXECUTED !",
+	Content = "successful EXECUTED C-TOOL",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/ctool/main/ctool", true))())
+  	end    
+})
+
+
 local Tab = Window:MakeTab({
 	Name = "Brookhaven",
 	Icon = "rbxassetid://4483345998",
