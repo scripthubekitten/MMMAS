@@ -181,7 +181,7 @@ Tab:AddButton({
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
-      		print(loadstring(game:HttpGet("loadstring(game:HttpGet("https://pastebin.com/raw/gJfKgLra%22))()")
+      		print(loadstring(game:HttpGet("loadstring(game:HttpGet("https://pastebin.com/raw/gJfKgLra%22))())
 })
 
 local Tab = Window:MakeTab({
